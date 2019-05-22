@@ -14,7 +14,7 @@
           "FLASK_APP": "application.py",
           "FLASK_ENV": "development",
           "FLASK_DEBUG": "1",
-          "DATABASE_URL": "postgres://cqrsumhdrfjmjk:1510704b04fb593266f9f0c4fff6bb8924682f67841f8206ed1039f7ee8a77e0@ec2-54-227-245-146.compute-1.amazonaws.com:5432/dbip2mbddopsj6"
+          "DATABASE_URL": "postgres://dbuser:qq1053761526@127.0.0.1:5432/exampledb"
         },
         "args": [
           "run",
