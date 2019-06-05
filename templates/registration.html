@@ -6,7 +6,7 @@
         <link href = "css/style.css" rel = "stylesheet">
     </head>
     <body>
-        <form method = "post" action = '/registration'>
+        <form method="POST" action = "{{ url_for('getRigistRequest') }}">
             <labal>用户名：<input type = "text" name = "user" value=""></labal><br>
             <labal>密码：<input type = "password" name = "password" value=""></labal><br>
             <input type = "submit" value = "注册">
